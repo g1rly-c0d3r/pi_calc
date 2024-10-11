@@ -2,19 +2,25 @@ program calculate_pi
   use FMZM
   implicit none
 
-  type(fm)           :: pi
+  type(fm)           :: pi, fmpival
   type(im)           :: n
   character(len=500) :: argv
+  real*16            :: start, finish
 
   call get_command_argument(1, argv)
-  call fm_set(10)
+  call fm_set(10000)
+
+  call fm_pi(fmpival)
 
   n = to_im(argv)
 
+  call cpu_time(start)
   pi = 1 / inverse_pi(n)
+  call cpu_time(finish)
 
-  call fm_print(pi)
-  call fm_print(1/pi)
+  call fm_print(pi - fmpival)
+
+  write(*, "('Computation time: ', f0.6, ' seconds.')") finish - start
 
   contains
   
@@ -31,13 +37,11 @@ program calculate_pi
 
       factnum = (-1)**i * gamma(to_fm(6*i + 1))
       factdenom = (gamma(to_fm(3*i + 1)) * (gamma(to_fm(i + 1))**3) )
-      denom = 640320**((3*i+3)/2) 
       num =13591409 + 545140134*i 
+      denom = 640320**((3*i)+(3.0/2.0)) 
 
       y = y + ((factnum/factdenom)*(num/denom))
       
-      call fm_print(y)
-
       i = i + 1
     end do
 
