@@ -2,22 +2,35 @@ program calculate_pi
   use FMZM
   implicit none
 
+  integer            :: argc
   type(fm)           :: pi, fmpival
   type(im)           :: n
-  character(len=500) :: fmsize, nstr
+  character(len=500) :: numdigs, printpistr
   real*16            :: start, finish
+  logical            :: piprint
 
-  call get_command_argument(1, fmsize)
-  call get_command_argument(2, nstr)
+  argc = command_argument_count()
+  call get_command_argument(1, numdigs)
+  call get_command_argument(2, printpistr)
 
-  call fm_set(to_int(to_im(fmsize)))
+  if(argc.lt.2) then
+    piprint = .false.
+  else
+    piprint = .true.
+  end if
 
-  n = to_im(nstr)
+  call fm_set(to_int(to_im(numdigs)))
+
+  n = to_im(numdigs) / 14
 
   call cpu_time(start)
   pi = 1 / inverse_pi(n)
   call cpu_time(finish)
 
+  if(piprint.eqv..true.) then
+    print*, "pi = "
+    call fm_print(pi)
+  endif
   write(*, "('Computation time: ', f0.6, ' seconds.')") finish - start
 
   contains
@@ -31,20 +44,20 @@ program calculate_pi
     y = 0
     i = 0
 
-    do while(i.le.n)
+    do while(i.lt.n)
 
       pos = (gamma(to_fm(6*i + 1))&
-            * (13591409 + 545140134*i))&
-            / (gamma(to_fm(3*i + 1)) * (gamma(to_fm(i + 1))**3) &
-            * 640320**((3*i)+(3.0/2.0))) 
+          * (13591409 + 545140134*i))&
+          / (gamma(to_fm(3*i + 1)) * (gamma(to_fm(i + 1))**3) &
+          * 640320**((3*i)+(3.0/2.0)))
 
       neg = (gamma(to_fm(6*(i+1) + 1))&
-            * (13591409 + 545140134*(i+1)))&
-            / (gamma(to_fm(3*(i+1) + 1)) * (gamma(to_fm((i+1) + 1))**3) &
-            * 640320**((3*(i+1))+(3.0/2.0))) 
-
+          * (13591409 + 545140134*(i+1)))&
+          / (gamma(to_fm(3*(i+1) + 1)) * (gamma(to_fm((i+1) + 1))**3) &
+          * 640320**((3*(i+1))+(3.0/2.0)))
 
       y = y + pos - neg
+
       
       i = i + 2
     end do
