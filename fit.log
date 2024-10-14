@@ -1,0 +1,658 @@
+
+
+*******************************************************************************
+Sun Oct 13 18:37:52 2024
+
+
+FIT:    data read from "serial_32768_2exp.dat"
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(n)=a*n*(log(n)/log(2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 1.2515385809e+08   0.00e+00  3.62e+03    1.000000e+00
+   4 1.4638549529e+02  -7.04e-08  3.62e-01    2.356027e-02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 146.385
+rel. change during last iteration : -7.03624e-13
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.033
+variance of residuals (reduced chisquare) = WSSR/ndf   : 16.2651
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.0235603        +/- 0.000352     (1.494%)
+
+
+*******************************************************************************
+Sun Oct 13 18:40:26 2024
+
+
+FIT:    data read from "serial_32768_2exp.dat"
+        format = z
+        x range restricted to [0.00000 : 32.0000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(n)=a*n*(log(n)/log(2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 6.3332354114e+00   0.00e+00  1.84e+00    2.356027e-02
+   3 1.8919069508e+00  -2.60e-02  1.84e-03    3.565924e-02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 1.89191
+rel. change during last iteration : -2.59798e-07
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.687733
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.472977
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.0356592        +/- 0.003948     (11.07%)
+
+
+*******************************************************************************
+Mon Oct 14 11:14:37 2024
+
+
+FIT:    data read from "time_serial.dat"
+        format = z
+        #datapoints = 70
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(n)=a*n*(log(n)/log(2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 4.1644057566e+11   0.00e+00  7.71e+04    1.000000e+00
+   4 1.4205141852e+03  -2.40e-10  7.71e+00    1.444173e-04
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1420.51
+rel. change during last iteration : -2.40097e-15
+
+degrees of freedom    (FIT_NDF)                        : 69
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.53731
+variance of residuals (reduced chisquare) = WSSR/ndf   : 20.5872
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.000144417      +/- 7.03e-06     (4.868%)
+
+
+*******************************************************************************
+Mon Oct 14 11:15:54 2024
+
+
+FIT:    data read from "time_serial.dat"
+        format = z
+        #datapoints = 72
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(n)=n*(log(n)/log(2))**3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 1.2483609118e+16   0.00e+00  0.00e+00    1.444173e-04
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Mon Oct 14 11:16:08 2024
+
+
+FIT:    data read from "time_serial.dat"
+        format = z
+        #datapoints = 73
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(n)=n*(log(n)/log(2))**3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 1.3069748818e+16   0.00e+00  0.00e+00    1.445617e-04
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Mon Oct 14 11:16:20 2024
+
+
+FIT:    data read from "time_serial.dat"
+        format = z
+        #datapoints = 73
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(n)=n*(log(n)/log(2))**3
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'a' is zero.
+iter      chisq       delta/lim  lambda   a            
+   0 1.3069748818e+16   0.00e+00  0.00e+00    1.000000e-30
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Mon Oct 14 11:16:38 2024
+
+
+FIT:    data read from "time_serial.dat"
+        format = z
+        #datapoints = 73
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(n)=n*(log(n)/log(2))**3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 1.3069748818e+16   0.00e+00  0.00e+00    1.000000e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Mon Oct 14 11:16:58 2024
+
+
+FIT:    data read from "time_serial.dat"
+        format = z
+        #datapoints = 74
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(n)=n*(log(n)/log(2))**3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 1.3675500136e+16   0.00e+00  0.00e+00    1.001000e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Mon Oct 14 11:17:18 2024
+
+
+FIT:    data read from "time_serial.dat"
+        format = z
+        #datapoints = 74
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(n)=n*(log(n)/log(2))**3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 1.3675500136e+16   0.00e+00  0.00e+00    1.000000e-03
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Mon Oct 14 11:19:02 2024
+
+
+FIT:    data read from "time_serial.dat"
+        format = z
+        #datapoints = 77
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(n)=n*(log(n)/log(2))**3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 1.5614405557e+16   0.00e+00  0.00e+00    1.000000e-04
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Mon Oct 14 11:19:12 2024
+
+
+FIT:    data read from "time_serial.dat"
+        format = z
+        #datapoints = 77
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(n)=n*(log(n)/log(2))**3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 1.5614405557e+16   0.00e+00  0.00e+00    1.000000e-06
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Mon Oct 14 11:19:31 2024
+
+
+FIT:    data read from "time_serial.dat"
+        format = z
+        #datapoints = 78
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(n)=a*n*(log(n)/log(2))**3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 2.3005517409e+03   0.00e+00  1.45e+01    1.001000e-06
+   2 2.2234640407e+03  -5.56e-01  1.45e-01    1.069764e-06
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 2223.46
+rel. change during last iteration : -5.55521e-06
+
+degrees of freedom    (FIT_NDF)                        : 77
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.37365
+variance of residuals (reduced chisquare) = WSSR/ndf   : 28.8762
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.06976e-06      +/- 4.209e-08    (3.934%)
+
+
+*******************************************************************************
+Mon Oct 14 12:31:39 2024
+
+
+FIT:    data read from 'time_serial.dat'
+        format = z
+        #datapoints = 121
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(n) = a* n**np * (log(n)/log(2))**lp
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             np            lp           
+   0 7.2149735926e+16   0.00e+00  1.74e+08    1.000000e+00   1.000000e+00   3.000000e+00
+
+Current data point
+=========================
+#               = 1 out of 121
+x               = -164.036       
+z               = 0.060909       
+
+Current set of parameters
+=========================
+a               = -164.036       
+np              = 1051.74        
+lp              = -3584.27       
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Mon Oct 14 12:32:39 2024
+
+
+FIT:    data read from 'time_serial.dat'
+        format = z
+        #datapoints = 121
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(n) = a* n**np * (log(n)/log(2))**lp
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 121
+x               = -164.036       
+z               = 0.060909       
+
+Current set of parameters
+=========================
+a               = -164.036       
+np              = 1051.74        
+lp              = -3584.27       
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Mon Oct 14 12:33:00 2024
+
+
+FIT:    data read from 'time_serial.dat'
+        format = z
+        #datapoints = 121
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(n) = a* n**np * (log(n)/log(2))**lp
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             np            lp           
+   0 1.3377699292e+19   0.00e+00  2.73e+09    1.000000e+00   1.000000e+00   4.000000e+00
+
+Current data point
+=========================
+#               = 1 out of 121
+x               = 1913.07        
+z               = 0.060909       
+
+Current set of parameters
+=========================
+a               = 1913.07        
+np              = 4354.56        
+lp              = 18091.6        
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Mon Oct 14 12:47:03 2024
+
+
+FIT:    data read from 'time_serial.dat'
+        format = z
+        #datapoints = 121
+        residuals are weighted equally (unit weight)
+
+function used for fitting: quad(x)
+	quad(x)=a*(x**2)+b*x+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 6.8837460583e+24   0.00e+00  1.38e+11    1.913070e+03   1.000000e+00   1.000000e+00
+   4 7.2625907278e+08  -7.62e-03  1.38e+07   -7.560578e-05   9.999999e-01   1.000000e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 7.26259e+08
+rel. change during last iteration : -7.61643e-08
+
+degrees of freedom    (FIT_NDF)                        : 118
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2480.87
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.15474e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -7.56058e-05     +/- 1.262e-05    (16.69%)
+b               = 1                +/- 0.2253       (22.53%)
+c               = 1                +/- 859.5        (8.595e+04%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.975  1.000 
+c               0.819 -0.912  1.000 
+
+
+*******************************************************************************
+Mon Oct 14 12:50:35 2024
+
+
+FIT:    data read from 'time_serial.dat'
+        format = z
+        #datapoints = 121
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(n)=a*n*(log(n)/log(2))**3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 4.3418414010e+08   0.00e+00  1.85e+03   -7.560578e-05
+   3 2.5091948400e+04  -7.94e-04  1.85e+00    1.966439e-06
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 25091.9
+rel. change during last iteration : -7.93875e-09
+
+degrees of freedom    (FIT_NDF)                        : 120
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 14.4603
+variance of residuals (reduced chisquare) = WSSR/ndf   : 209.1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.96644e-06      +/- 5.383e-08    (2.738%)
+
+
+*******************************************************************************
+Mon Oct 14 12:52:58 2024
+
+
+FIT:    data read from 'time_serial.dat'
+        format = z
+        x range restricted to [0.00000 : 18000.0]
+        #datapoints = 121
+        residuals are weighted equally (unit weight)
+
+function used for fitting: quad(x)
+	quad(x)=a*(x**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 4.6318905703e+06   0.00e+00  2.45e+02    1.966439e-06
+   3 5.8950237306e+03  -3.60e-05  2.45e-01    3.981683e-07
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 5895.02
+rel. change during last iteration : -3.60046e-10
+
+degrees of freedom    (FIT_NDF)                        : 120
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.00894
+variance of residuals (reduced chisquare) = WSSR/ndf   : 49.1252
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.98168e-07      +/- 5.111e-09    (1.284%)
+
+
+*******************************************************************************
+Mon Oct 14 12:54:41 2024
+
+
+FIT:    data read from 'time_serial.dat'
+        format = z
+        x range restricted to [0.00000 : 18000.0]
+        #datapoints = 121
+        residuals are weighted equally (unit weight)
+
+function used for fitting: quad(x)
+	quad(x)=a*(x**p)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             p            
+   0 3.0404369284e+05   0.00e+00  2.61e-02    3.981683e-07   1.000000e+00
+
+Current data point
+=========================
+#               = 1 out of 121
+x               = -9.96415e-05   
+z               = 0.060909       
+
+Current set of parameters
+=========================
+a               = -9.96415e-05   
+p               = 1303.91        
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Mon Oct 14 12:54:50 2024
+
+
+FIT:    data read from 'time_serial.dat'
+        format = z
+        x range restricted to [0.00000 : 18000.0]
+        #datapoints = 121
+        residuals are weighted equally (unit weight)
+
+function used for fitting: quad(x)
+	quad(x)=a*(x**p)
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 121
+x               = -9.96415e-05   
+z               = 0.060909       
+
+Current set of parameters
+=========================
+a               = -9.96415e-05   
+p               = 1303.91        
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Mon Oct 14 12:55:23 2024
+
+
+FIT:    data read from 'time_serial.dat'
+        format = z
+        x range restricted to [0.00000 : 18000.0]
+        #datapoints = 121
+        residuals are weighted equally (unit weight)
+
+function used for fitting: quad(x)
+	quad(x)=a*(x**p)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             p            
+   0 2.4021190746e+04   0.00e+00  5.09e+02    3.000000e-07   2.000000e+00
+ 234 6.9710730676e+02  -9.26e-01  5.09e+01    3.678562e-10   2.733858e+00
+
+After 234 iterations the fit converged.
+final sum of squares of residuals : 697.107
+rel. change during last iteration : -9.26332e-06
+
+degrees of freedom    (FIT_NDF)                        : 119
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.42034
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.85804
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.67856e-10      +/- 9.865e-11    (26.82%)
+p               = 2.73386          +/- 0.0277       (1.013%)
+
+correlation matrix of the fit parameters:
+                a      p      
+a               1.000 
+p              -1.000  1.000 
+
+
+*******************************************************************************
+Mon Oct 14 13:04:39 2024
+
+
+FIT:    data read from 'time_serial.dat'
+        format = z
+        x range restricted to [0.00000 : 18000.0]
+        #datapoints = 121
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(n)=c*n*(log(n)/log(2))**3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c            
+   0 7.2149735924e+16   0.00e+00  2.44e+07    1.000000e+00
+   4 2.5091948400e+04  -9.01e-08  2.44e+03    1.966439e-06
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 25091.9
+rel. change during last iteration : -9.01087e-13
+
+degrees of freedom    (FIT_NDF)                        : 120
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 14.4603
+variance of residuals (reduced chisquare) = WSSR/ndf   : 209.1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+c               = 1.96644e-06      +/- 5.383e-08    (2.738%)
+
+
+*******************************************************************************
+Mon Oct 14 13:05:48 2024
+
+
+FIT:    data read from 'time_serial.dat'
+        format = z
+        x range restricted to [0.00000 : 18000.0]
+        #datapoints = 121
+        residuals are weighted equally (unit weight)
+
+function used for fitting: quad(x)
+	quad(x)=a*(x**p)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             p            
+   0 6.9710730676e+02   0.00e+00  9.38e+02    3.678562e-10   2.733858e+00
+   1 6.9710695032e+02  -5.11e-02  9.38e+01    3.678556e-10   2.733861e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 697.107
+rel. change during last iteration : -5.11311e-07
+
+degrees of freedom    (FIT_NDF)                        : 119
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.42034
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.85804
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.67856e-10      +/- 9.865e-11    (26.82%)
+p               = 2.73386          +/- 0.0277       (1.013%)
+
+correlation matrix of the fit parameters:
+                a      p      
+a               1.000 
+p              -1.000  1.000 
+
+
+*******************************************************************************
+Mon Oct 14 13:24:52 2024
+
+
+FIT:    data read from 'time_serial.dat'
+        format = z
+        #datapoints = 121
+        residuals are weighted equally (unit weight)
+
+function used for fitting: quad(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Mon Oct 14 13:25:10 2024
+
+
+FIT:    data read from 'time_serial.dat'
+        format = z
+        #datapoints = 121
+        residuals are weighted equally (unit weight)
+
+function used for fitting: quad(x)
+	quad(x)=a*(x**p)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             p            
+   0 1.1475767216e+10   0.00e+00  6.56e+04    1.000000e+00   1.000000e+00
+2075 6.9726881152e+02  -9.72e-01  6.56e+01    3.790144e-10   2.730732e+00
+
+After 2075 iterations the fit converged.
+final sum of squares of residuals : 697.269
+rel. change during last iteration : -9.72353e-06
+
+degrees of freedom    (FIT_NDF)                        : 119
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.42062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.8594
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.79014e-10      +/- 1.016e-10    (26.79%)
+p               = 2.73073          +/- 0.02768      (1.014%)
+
+correlation matrix of the fit parameters:
+                a      p      
+a               1.000 
+p              -1.000  1.000 

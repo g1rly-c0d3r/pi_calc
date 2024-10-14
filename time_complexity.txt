@@ -1,0 +1,1 @@
+time complexity ~ 3.79014e-10 * x**2.73073
